@@ -159,13 +159,6 @@ nav a#openup {
           justify-content: space-evenly;
 }
 
-.c1 .fbc1 div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 10px;
-}
-
 .c1 .fbc1 .btnClickMe {
   background-color: #008bfd;
   color: white;
