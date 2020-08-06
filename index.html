@@ -14,13 +14,13 @@
             <nav class='cf'>
                 <ul class='cf'>
                     <li class="hideOnSmall">
-                        <a href="#showcase">JS Challenges</a>
+                        <a href="#">JS Challenges</a>
                     </li>
                     <li>
                         <a href='#c1'>Challenge 1</a>
                     </li>
                     <li>
-                        <a href='#'>Challenge 2</a>
+                        <a href='#c2'>Challenge 2</a>
                     </li>
                     <li>
                         <a href='#'>Challenge 3</a>
@@ -40,7 +40,7 @@
     </div>
 
     <!-- Challenge 1 Div -->
-    <div id="c1" class="c1">
+    <div id="c1" class="mainC c1">
         <h2>Challenge 1: Your age in days</h2>
         <p>
             Write a script to take in age through a browser prompt and display the age in days as the result.
@@ -52,6 +52,21 @@
         <div class="fbc1">
             <div id="fbResult"></div> <!-- Age Result is injected here -->
         </div>
+    </div>
+
+    <!-- Challenge 2 Div -->
+    <div id="c2" class="mainC c2">
+        <h2>Challenge 2: Dog Generator</h2>
+        <p>
+            Write a script to generate dogs on every button click
+        </p>
+        <div class="fbc2">
+            <button class="btn btnGenerate" onclick="dogGen();">
+                Generate Dog</button>
+            <button class="btn btnDeGenerate" onclick="dogDeGen();">
+                Reload</button>
+        </div>
+        <div id="fbImage"></div> <!-- Image is injected here -->        
     </div>
 
     <!-- Link JS files -->

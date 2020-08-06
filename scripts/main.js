@@ -27,7 +27,7 @@ $(function () {
 
 //Challenge 1: Your age in days
 
-function ageInDays () {
+function ageInDays() {
     if (document.contains(document.getElementById('ageInDays'))) {
         document.getElementById('ageInDays').remove();
     }
@@ -50,4 +50,15 @@ function ageInDays () {
     document.getElementById('fbResult').appendChild(h1);
 }
 
-//Challenge 2:
+//Challenge 2: Dog Generator
+
+function dogGen() {
+    var img = document.createElement('img');
+    img.setAttribute('id', 'dogImage');
+    img.setAttribute('src', 'https://api.thedogapi.com/api/images/get?format=src&type=gif&size=large?');
+    document.getElementById('fbImage').appendChild(img);
+}
+
+function dogDeGen() {
+    location.reload(false);
+}
